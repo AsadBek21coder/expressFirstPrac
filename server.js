@@ -10,7 +10,7 @@ app.get( '/', (req,res) => {
 })
 
 app.get('/api', (req,res) => {
-	res.send( [1,2,3] )
+	res.send( ['Asadbek', 'Egaambergenov',1,2,3,25   ,251 ,55 ,4654,6,54654,6546,546546,8546] )
 	console.log('Array recieved')
 })
 
